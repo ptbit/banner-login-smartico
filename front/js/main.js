@@ -11,7 +11,6 @@ window.addEventListener('orientationchange', () => {
   location.reload(true);
 });
 
-
 // padding no-ios
 document.addEventListener('DOMContentLoaded', function () {
   let sum = document.querySelector('.reg__sum');

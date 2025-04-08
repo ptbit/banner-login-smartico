@@ -12,13 +12,13 @@ window.addEventListener('orientationchange', () => {
 });
 
 // padding no-ios
-document.addEventListener('DOMContentLoaded', function () {
-  let sum = document.querySelector('.reg__sum');
-  let fs = document.querySelector('.reg__fs');
+// document.addEventListener('DOMContentLoaded', function () {
+//   let sum = document.querySelector('.reg__sum');
+//   let fs = document.querySelector('.reg__fs');
 
-  if (!/iPad|iPhone|iPod|Mac/.test(navigator.userAgent)) {
-    console.log('ADD CLASS no iOS');
-    sum.classList.add('noios-padding');
-    fs.classList.add('noios-padding');
-  }
-});
+//   if (!/iPad|iPhone|iPod|Mac/.test(navigator.userAgent)) {
+//     console.log('ADD CLASS no iOS');
+//     sum.classList.add('noios-padding');
+//     fs.classList.add('noios-padding');
+//   }
+// });

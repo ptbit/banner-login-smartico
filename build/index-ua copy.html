@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="ua"><head><meta charset="utf-8"><title>FAVBET</title><meta content="width=device-width, initial-scale=1" name="viewport"><link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="css/main.css"></head><body><buttons id="buttons"><style>#buttons {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 25%;
+  transform: translate(-25%);
+  gap: 5px;
+  z-index: 999;
+}
+#theme, #ua, #en {
+  border: 2px dashed grey;
+  background-color: transparent;
+  color: #FF267E;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.3s all linear;
+}
+#theme:hover, #ua:hover, #en:hover {
+  border: 2px dashed white;
+  background-color: #05C48A;
+  color: #005;
+}
+@media screen and (max-width: 380px) {
+  #buttons {
+    right: 0;
+    left: auto;
+    width: min-content;
+    flex-direction: column;
+    padding: 5px;
+    transform: translate(0);
+  }
+  #theme, #ua, #en {
+    padding: 5px 10px;
+    text-align: center;
+  }
+}
+</style><a href="./index-ua.html" id="ua">UA</a><a href="./index-en.html" id="en">EN</a></buttons><div class="wrapper"><div class="login"><div class="login__salute"><picture><source media="(max-width: 1024px)" srcset="img/salute-512.png"><source media="(max-width: 1280px)" srcset="img/salute-640.png"><source media="(max-width: 1440px)" srcset="img/salute-720.png"><source media="(min-width: 1441px)" srcset="img/salute-960.png"><img src="img/salute-640.png" alt="salute login"></picture></div><div class="login__only-salute"><picture><source media="(max-width: 1032px) and (max-height: 1302px)" srcset="img/salute-only-640.png"><img src="img/salute-only-640.png" alt="sam login"></picture></div><h1 class="login__title">З поверненням <span>у гру!</span></h1><div class="login__sam"><picture><source media="(max-width: 1024px)" srcset="img/sam-512.png"><source media="(max-width: 1280px)" srcset="img/sam-640.png"><source media="(max-width: 1440px)" srcset="img/sam-720.png"><source media="(min-width: 1441px)" srcset="img/sam-960.png"><img src="img/sam-640.png" alt="sam login"></picture></div><div class="login__full-sam"><picture><source media="(max-width: 1032px) and (max-height: 1302px)" srcset="img/full-sam-640.png"><img src="img/full-sam-640.png" alt="sam login"></picture></div></div></div><script src="js/main.js"></script></body></html>
